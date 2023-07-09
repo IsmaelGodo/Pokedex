@@ -1,7 +1,12 @@
 import React from "react";
+import NavBar from "./NavBar/NavBar";
 
-const Head = () => {
-  return <div>Head</div>;
+const Header = () => {
+  return (
+    <header className="header-day">
+      <NavBar />
+    </header>
+  );
 };
 
-export default Head;
+export default Header;
