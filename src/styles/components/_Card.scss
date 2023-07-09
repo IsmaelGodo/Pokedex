@@ -1,0 +1,257 @@
+@import '../utils/variables.scss';
+@import '../utils/mixins.scss';
+
+
+.electric-card{
+    @include card-basic;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid $electric-color;
+    overflow: hidden;
+
+        
+        &> p {
+            margin-top: 0;
+            width: 100%;
+            background-color: $electric-color;
+        }
+}
+.ghost-card{
+    @include card-basic;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid $ghost-color;
+    overflow: hidden;
+
+        
+        &> p {
+            margin-top: 0;
+            width: 100%;
+            background-color: $ghost-color;
+        }
+}
+.normal-card{
+    @include card-basic;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid $normal-color;
+    overflow: hidden;
+
+       
+        &> p {
+            margin-top: 0;
+            width: 100%;
+            background-color: $normal-color;
+        }
+}
+.ice-card{
+    @include card-basic;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid $ice-color;
+    overflow: hidden;
+
+        
+        &> p {
+            margin-top: 0;
+            width: 100%;
+            background-color: $ice-color;
+        }
+}
+.fighting-card{
+    @include card-basic;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid $fighting-color;
+    overflow: hidden;
+
+          
+        &> p {
+            margin-top: 0;
+            width: 100%;
+            background-color: $fighting-color;
+        }
+        
+}
+.poison-card{
+    @include card-basic;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid $poison-color;
+    overflow: hidden;
+
+        
+        &> p {
+            margin-top: 0;
+            width: 100%;
+            background-color: $poison-color;
+        }
+}
+.ground-card{
+    @include card-basic;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid $ground-color;
+    overflow: hidden;
+
+        
+        &> p {
+            margin-top: 0;
+            width: 100%;
+            background-color: $ground-color;
+        }
+}
+.flying-card{
+    @include card-basic;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid $flying-color;
+    overflow: hidden;
+
+        
+        &> p {
+            margin-top: 0;
+            width: 100%;
+            background-color: $flying-color;
+        }
+}
+.fire-card{
+    @include card-basic;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid $fire-color;
+    overflow: hidden;
+
+        
+        &> p {
+            margin-top: 0;
+            width: 100%;
+            background-color: $fire-color;
+        }
+}
+.water-card{
+    @include card-basic;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid $water-color;
+    overflow: hidden;
+
+        
+        &> p {
+            margin-top: 0;
+            width: 100%;
+            background-color: $water-color;
+        }
+}
+.grass-card{
+    @include card-basic;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid $grass-color;
+    overflow: hidden;
+
+        
+        &> p {
+            margin-top: 0;
+            width: 100%;
+            background-color: $grass-color;
+        }
+}
+.psychic-card{
+    @include card-basic;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid $psychic-color;
+    overflow: hidden;
+
+        
+        &> p {
+            margin-top: 0;
+            width: 100%;
+            background-color: $psychic-color;
+        }
+}
+.bug-card{
+    @include card-basic;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid $bug-color;
+    overflow: hidden;
+
+        
+        &> p {
+            margin-top: 0;
+            width: 100%;
+            background-color: $bug-color;
+        }
+}
+.rock-card{
+    @include card-basic;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid $rock-color;
+    overflow: hidden;
+
+        
+        &> p {
+            margin-top: 0;
+            width: 100%;
+            background-color: $rock-color;
+        }
+}
+.dark-card{
+    @include card-basic;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid $dark-color;
+    overflow: hidden;
+
+        
+        &> p {
+            margin-top: 0;
+            width: 100%;
+            background-color: $dark-color;
+        }
+}
+.dragon-card{
+    @include card-basic;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid $dragon-color;
+    overflow: hidden;
+
+        
+        &> p {
+            margin-top: 0;
+            width: 100%;
+            background-color: $dragon-color;
+        }
+}
+.steel-card{
+    @include card-basic;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid $steel-color;
+    overflow: hidden;
+
+        
+        &> p {
+            margin-top: 0;
+            width: 100%;
+            background-color: $steel-color;
+        }
+}
+.fairy-card{
+    @include card-basic;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid $fairy-color;
+    overflow: hidden;
+
+        
+        &> p {
+            margin-top: 0;
+            width: 100%;
+            background-color: $fairy-color;
+        }
+}
