@@ -48,7 +48,7 @@ useEffect(() => {
 return (
   <section>
     <Search handlePokemon={handlePokemon} />
-    {isLoading ? <p>Cargando...</p> : <PokeList pokeData={pokeData} />}
+    {isLoading ? <img id="loading" src="../src/assets/spiner.gif"/> : <PokeList pokeData={pokeData} />}
   </section>
 );
 };

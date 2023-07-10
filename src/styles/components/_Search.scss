@@ -2,5 +2,19 @@
 @import '../utils/mixins.scss';
 
 .search-container{
-    position: sticky
+    position: sticky;
+    padding-top: 10px;
+    &>form> button{
+        background-color: rgb(53, 89, 220);
+        color: white;
+        width: 150px;
+        border-radius: 15px;
+        margin-top: 5px;
+        
+    }
+    &>form> button:hover{
+        background-color: rgb(16, 33, 97);
+        color: white;
+        
+    }
 }
