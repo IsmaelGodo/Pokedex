@@ -1,8 +1,9 @@
 import React from "react";
 
 const Footer = () => {
-  return <footer>
-  <p className="footer-day">Hola</p>
+  return <footer className="footer">
+  <img id="pokeball" src="../src/assets/pokeball.jpg"/>
+  
   </footer>
 };
 

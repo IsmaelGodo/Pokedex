@@ -1,31 +1,15 @@
 @import '../utils/variables.scss';
 @import '../utils/mixins.scss';
 
-%footer-bar-basic{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    min-height:12vh;
-    color:white;
-    margin:0px;
+.footer{
+    background-color: red;
+    
+    width: 700px;
 }
 
-.footer-day{
-    @extend %footer-bar-basic;
-    background-color:$light-orange;
-    color: $blue;
+#pokeball{
+    height: 50px;
+    margin-top: 1px;
+    
 }
 
-.footer-night{
-    @extend %footer-bar-basic;
-    background-color: $dark-blue;
-    color: $light-orange
-}
-
-.footer-day{
-    color: $dark-blue
-}
-
-.footer-night{
-    color: $light-blue
-}

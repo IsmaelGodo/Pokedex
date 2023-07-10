@@ -1,0 +1,340 @@
+@import '../utils/variables.scss';
+@import '../utils/mixins.scss';
+
+.pokelogo{
+    align-self: flex-end;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.detail-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 100px;
+    border-radius: 15px;
+    width: 400px;
+    height: 400px;
+    background-color: rgb(233, 231, 231);
+}
+.pokeimg{
+    width: 150px;
+}
+
+
+.electric-detail{
+
+    @include basic-detail;
+        
+        border: 10px solid $electric-color;
+        border-radius: 10px;
+        &>p{
+            margin-top: -20px;
+            color: $electric-color;
+            text-shadow:
+          -1px -1px 0 #4c4b4b,
+          1px -1px 0 #4c4b4b,
+          -1px 1px 0 #4c4b4b,
+          1px 1px 0 #4c4b4b;
+        }
+    
+}
+.ghost-detail{
+
+    @include basic-detail;
+        
+        border: 10px solid $ghost-color;
+        border-radius: 10px;
+        &>p{
+            margin-top: -20px;
+            color: $ghost-color;
+            text-shadow:
+          -1px -1px 0 #4c4b4b,
+          1px -1px 0 #4c4b4b,
+          -1px 1px 0 #4c4b4b,
+          1px 1px 0 #4c4b4b;
+        }
+    
+}
+.normal-detail{
+
+    @include basic-detail;
+        
+        border: 10px solid $normal-color;
+        border-radius: 10px;
+        &>p{
+            margin-top: -20px;
+            color: $normal-color;
+            text-shadow:
+          -1px -1px 0 #4c4b4b,
+          1px -1px 0 #4c4b4b,
+          -1px 1px 0 #4c4b4b,
+          1px 1px 0 #4c4b4b;
+        }
+    
+}
+.ice-detail{
+
+    @include basic-detail;
+        
+        border: 10px solid $ice-color;
+        border-radius: 10px;
+        &>p{
+            margin-top: -20px;
+            color: $ice-color;
+            text-shadow:
+          -1px -1px 0 #4c4b4b,
+          1px -1px 0 #4c4b4b,
+          -1px 1px 0 #4c4b4b,
+          1px 1px 0 #4c4b4b;
+        }
+    
+}
+
+.fighting-detail{
+
+    @include basic-detail;
+        
+        border: 10px solid $fighting-color;
+        border-radius: 10px;
+        &>p{
+            margin-top: -20px;
+            color: $fighting-color;
+            text-shadow:
+          -1px -1px 0 #4c4b4b,
+          1px -1px 0 #4c4b4b,
+          -1px 1px 0 #4c4b4b,
+          1px 1px 0 #4c4b4b;
+        }
+    
+}
+.poison-detail{
+
+    @include basic-detail;
+        
+        border: 10px solid $poison-color;
+        border-radius: 10px;
+        &>p{
+            margin-top: -20px;
+            color: $poison-color;
+            text-shadow:
+          -1px -1px 0 #4c4b4b,
+          1px -1px 0 #4c4b4b,
+          -1px 1px 0 #4c4b4b,
+          1px 1px 0 #4c4b4b;
+        }
+    
+}
+
+.ground-detail{
+
+    @include basic-detail;
+        
+        border: 10px solid $ground-color;
+        border-radius: 10px;
+        &>p{
+            margin-top: -20px;
+            color: $ground-color;
+            text-shadow:
+          -1px -1px 0 #4c4b4b,
+          1px -1px 0 #4c4b4b,
+          -1px 1px 0 #4c4b4b,
+          1px 1px 0 #4c4b4b;
+        }
+    
+}
+.flying-detail{
+
+    @include basic-detail;
+        
+        border: 10px solid $flying-color;
+        border-radius: 10px;
+        &>p{
+            margin-top: -20px;
+            color: $flying-color;
+            text-shadow:
+          -1px -1px 0 #4c4b4b,
+          1px -1px 0 #4c4b4b,
+          -1px 1px 0 #4c4b4b,
+          1px 1px 0 #4c4b4b;
+        }
+    
+}
+
+.fire-detail{
+
+    @include basic-detail;
+        
+        border: 10px solid $fire-color;
+        border-radius: 10px;
+        &>p{
+            margin-top: -20px;
+            color: $fire-color;
+            text-shadow:
+          -1px -1px 0 #4c4b4b,
+          1px -1px 0 #4c4b4b,
+          -1px 1px 0 #4c4b4b,
+          1px 1px 0 #4c4b4b;
+        }
+    
+}
+
+.water-detail{
+
+    @include basic-detail;
+        
+        border: 10px solid $water-color;
+        border-radius: 10px;
+        &>p{
+            margin-top: -20px;
+            color: $water-color;
+            text-shadow:
+          -1px -1px 0 #4c4b4b,
+          1px -1px 0 #4c4b4b,
+          -1px 1px 0 #4c4b4b,
+          1px 1px 0 #4c4b4b;
+        }
+    
+}
+.grass-detail{
+
+    @include basic-detail;
+        
+        border: 10px solid $grass-color;
+        border-radius: 10px;
+        &>p{
+            margin-top: -20px;
+            color: $grass-color;
+            text-shadow:
+          -1px -1px 0 #4c4b4b,
+          1px -1px 0 #4c4b4b,
+          -1px 1px 0 #4c4b4b,
+          1px 1px 0 #4c4b4b;
+        }
+    
+}
+
+.psychic-detail{
+
+    @include basic-detail;
+        
+        border: 10px solid $psychic-color;
+        border-radius: 10px;
+        &>p{
+            margin-top: -20px;
+            color: $psychic-color;
+            text-shadow:
+          -1px -1px 0 #4c4b4b,
+          1px -1px 0 #4c4b4b,
+          -1px 1px 0 #4c4b4b,
+          1px 1px 0 #4c4b4b;
+        }
+    
+}
+
+.bug-detail{
+
+    @include basic-detail;
+        
+        border: 10px solid $bug-color;
+        border-radius: 10px;
+        &>p{
+            margin-top: -20px;
+            color: $bug-color;
+            text-shadow:
+          -1px -1px 0 #4c4b4b,
+          1px -1px 0 #4c4b4b,
+          -1px 1px 0 #4c4b4b,
+          1px 1px 0 #4c4b4b;
+        }
+    
+}
+
+.rock-detail{
+
+    @include basic-detail;
+        
+        border: 10px solid $rock-color;
+        border-radius: 10px;
+        &>p{
+            margin-top: -20px;
+            color: $rock-color;
+            text-shadow:
+          -1px -1px 0 #4c4b4b,
+          1px -1px 0 #4c4b4b,
+          -1px 1px 0 #4c4b4b,
+          1px 1px 0 #4c4b4b;
+        }
+    
+}
+
+.dark-detail{
+
+    @include basic-detail;
+        
+        border: 10px solid $dark-color;
+        border-radius: 10px;
+        &>p{
+            margin-top: -20px;
+            color: $dark-color;
+            text-shadow:
+          -1px -1px 0 #4c4b4b,
+          1px -1px 0 #4c4b4b,
+          -1px 1px 0 #4c4b4b,
+          1px 1px 0 #4c4b4b;
+        }
+    
+}
+
+.dragon-detail{
+
+    @include basic-detail;
+        
+        border: 10px solid $dragon-color;
+        border-radius: 10px;
+        &>p{
+            margin-top: -20px;
+            color: $dragon-color;
+            text-shadow:
+          -1px -1px 0 #4c4b4b,
+          1px -1px 0 #4c4b4b,
+          -1px 1px 0 #4c4b4b,
+          1px 1px 0 #4c4b4b;
+        }
+    
+}
+.steel-detail{
+
+    @include basic-detail;
+        
+        border: 10px solid $steel-color;
+        border-radius: 10px;
+        &>p{
+            margin-top: -20px;
+            color: $steel-color;
+            text-shadow:
+          -1px -1px 0 #4c4b4b,
+          1px -1px 0 #4c4b4b,
+          -1px 1px 0 #4c4b4b,
+          1px 1px 0 #4c4b4b;
+        }
+    
+}
+.fairy-detail{
+
+    @include basic-detail;
+        
+        border: 10px solid $fairy-color;
+        border-radius: 10px;
+        &>p{
+            margin-top: -20px;
+            color: $fairy-color;
+            text-shadow:
+          -1px -1px 0 #4c4b4b,
+          1px -1px 0 #4c4b4b,
+          -1px 1px 0 #4c4b4b,
+          1px 1px 0 #4c4b4b;
+        }
+    
+}
+

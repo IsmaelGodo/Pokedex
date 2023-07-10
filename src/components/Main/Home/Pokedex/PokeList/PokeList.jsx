@@ -4,7 +4,7 @@ import Card from './Card';
 const PokeList = ({ pokeData }) => {
   return (
     <section className="lista-container">
-      <h2 className="lista-title">Pokemons Guardados</h2>
+      
       <div className="cards-container">
       {pokeData.map((pokemon, index) => (
         <Card
